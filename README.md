@@ -1,4 +1,7 @@
-# Rick and Morty Character Feed
+# Rick and Morty Newsfeed
+
+[![Demo Video](https://img.youtube.com/vi/QGI4haqwuKQ/0.jpg)](https://youtu.be/QGI4haqwuKQ)
+[Watch Demo Video](https://youtu.be/QGI4haqwuKQ)
 
 A full-stack application that displays Rick and Morty characters in a modern newsfeed interface. The application allows users to browse, filter, and view detailed information about characters from the show.
 
