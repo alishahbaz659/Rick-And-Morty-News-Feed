@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Segoe UI', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+}
+
+/* Add padding to account for fixed navbar */
+#root > .d-flex.flex-column.min-vh-100 > .container,
+.main-content {
+  padding-top: 90px;
+  margin-top: 0;
+  position: relative;
+  z-index: 1;
+}
+
+@media (min-width: 992px) {
+  #root > .d-flex.flex-column.min-vh-100 > .container,
+  .main-content {
+    padding-top: 90px;
+  }
+}
+
+/* Override CharacterDetailPage container padding */
+.container[style*="paddingTop"] {
+  padding-top: 90px !important;
+}
+
+/* Override CharacterDetailPage container padding */
+.character-detail-container {
+  padding-top: 90px;
+}
+
+/* Ensure header has appropriate z-index */
+.modern-navbar, .custom-navbar {
+  z-index: 1100;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+.status-alive {
+  color: #28a745;
+}
+
+.status-dead {
+  color: #dc3545;
+}
+
+.status-unknown {
+  color: #6c757d;
+}
+
+.character-card {
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.character-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.character-image {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.pagination-container {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.filter-section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Homepage container */
+.homepage-container {
+  padding-top: 3rem;
+}
+
+.homepage-container h1 {
+  margin-top: 20px;
+  color: #262c3a;
+}
+
+/* Page title */
+.page-title {
+  margin-top: 20px;
+  padding-top: 10px;
+  font-weight: 700;
+} 
