@@ -1,4 +1,4 @@
-# Rick and Morty Newsfeed
+# Rick and Morty Character Feed
 
 A full-stack application that displays Rick and Morty characters in a modern newsfeed interface. The application allows users to browse, filter, and view detailed information about characters from the show.
 
@@ -95,8 +95,13 @@ The backend provides the following RESTful API endpoints:
 
 - `GET /api/characters/feed` - Get paginated characters with filtering options
 - `GET /api/characters/{id}` - Get a specific character by ID
-- `POST /api/auth/login` - User authentication
-- `POST /api/auth/register` - User registration
+- `GET /api/characters` - Get all characters
+
+### Planned Features
+These features are planned for future development:
+- User authentication and registration
+- Favorites/bookmarks functionality
+- User comments and ratings
 
 ## Deployment
 
